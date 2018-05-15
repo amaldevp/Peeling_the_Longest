@@ -1,0 +1,30 @@
+#Amal Dev Parakkat (adp.upasana@gmail.com)
+
+##################
+Implementation of:
+##################
+
+Paper Title:- Peeling the Longest: A Simple Generalized Curve Reconstruction Algorithm
+Authors:- Amal Dev Parakkat, Subhasree Methirumangalath, Ramanathan Muthuganapathy
+
+Operating system recommended:- Ubuntu 14.04 or newer
+
+This program is a research prototype, and may contain bugs and flaws. 
+
+###########
+How to run:
+###########
+
+1. Execute the command "sh script.sh"
+Which will:
+a. Download required softwares including cmake, CGAL, boost, glut etc.
+b. Add a flag variable to "CGAL\Point_3.h"
+c. Run cmake and make commands
+2. Execute the program with filename as parameter
+For example: "./Peel Input_Files/Fig1.txt"
+
+################
+Additional files:
+################
+
+Input_Files contains the point sets used to generate outputs shown in the paper.
