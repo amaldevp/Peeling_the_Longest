@@ -161,12 +161,12 @@ int main(int argc, char **argv)
         float big=0,small=9999;
         for(int i=0;i<di;i++)
         {
-            if(dist[di]>big)
+            if(dist[i]>big)
             {
-                big=dist[di];
+                big=dist[i];
             }
-            if(dist[di]<small)
-                small=dist[di];
+            if(dist[i]<small)
+                small=dist[i];
         }
         if(big<2*small)
             delete_pts(it->point());
